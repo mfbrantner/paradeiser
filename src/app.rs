@@ -114,7 +114,7 @@ impl App {
     fn on_key_event(&mut self, key: KeyEvent) {
         match (key.modifiers, key.code) {
             // quit application using q, Esc or Ctrl-C
-            (_, KeyCode::Esc | KeyCode::Char('q'))
+            (_, KeyCode::Esc | KeyCode::Char('q') | KeyCode::Char('Q'))
             | (KeyModifiers::CONTROL, KeyCode::Char('c') | KeyCode::Char('C')) => self.quit(),
 
             // Add other key handlers here.
