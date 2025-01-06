@@ -1,8 +1,6 @@
 mod pomodoro;
 mod timer;
 mod args;
-mod pomodoro_factory;
-mod pomodoro_state;
 mod app;
 mod timer_state;
 mod format;

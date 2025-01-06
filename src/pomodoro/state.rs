@@ -1,6 +1,6 @@
 use crate::args::Args;
+use crate::pomodoro::factory::PomodoroFactory;
 use crate::pomodoro::Pomodoro;
-use crate::pomodoro_factory::PomodoroFactory;
 
 const INTERVAL_LEN: u32 = 3;
 

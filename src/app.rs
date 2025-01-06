@@ -9,7 +9,7 @@ use ratatui::{
 };
 use std::sync::{Arc, Mutex};
 
-use crate::pomodoro_state::PomodoroState;
+use crate::pomodoro::state::PomodoroState;
 use crate::{args::Args, timer_state::TimerState};
 
 #[derive(Debug)]
