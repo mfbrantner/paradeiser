@@ -1,5 +1,6 @@
 # Paradeiser
 Minimal, terminal-based, cross-platform pomodoro timer.
+(Tested on Windows 11 and Linux)
 
 ## Usage
 Ships with sensible defaults:
@@ -24,7 +25,7 @@ The application may be terminated using `Esc`, `Q`, or `CTRL-C`.
 
 ## Not implemented (yet?)
 - Specifying the interval.
-- More applealing GUI.
+- More appealing GUI.
 
 ## Known Issues
 - Colors are hardcoded, meaning readabilty may be affected by terminal color scheme
